@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class Main{
+class BOJ11403 {
     static int N;
     static int[][] graph;
     public static void main(String[] args) throws IOException {
@@ -12,7 +12,7 @@ class Main{
         graph = new int[N][N];
         StringTokenizer st;
         for (int i = 0; i < N; i++) {
-             st = new StringTokenizer(br.readLine());
+            st = new StringTokenizer(br.readLine());
             for (int j = 0; j < N; j++) {
                 graph[i][j] = Integer.parseInt(st.nextToken());
             }
